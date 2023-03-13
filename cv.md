@@ -7,7 +7,7 @@
 * __Location:__ Russia, Krasnoarmeysk
 * __Phone:__ +79261406717
 * __Mail:__ Babankov418@mail.ru
-* __GitHub:__ [BABANKOV418](https://github.com/BABANKOV418)
+* __GitHub:__ BABANKOV418
 
 ## __About Me__
 
