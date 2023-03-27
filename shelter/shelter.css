@@ -1,0 +1,260 @@
+*:not(button){
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  * {
+    color: rgb(255, 255, 255);
+  }
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+:focus, :active {
+    outline: none;
+  }
+a {
+    text-decoration: none;
+}
+  
+a:focus, a:active {
+    outline: none;
+  }
+ul li {
+    list-style: none;
+  }
+.header {
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.blok1 {
+    display: flex;
+    justify-content: space-between;
+}
+.title_text {
+    display: flex;
+    flex-direction: column;
+}
+.h1_header {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-size: 32px;
+    color: #F1CDB3;
+    padding-top: 30px;
+}
+.head_mini {
+    font-family: 'Arial';
+    font-style: normal;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.navigation {
+    display: flex;
+}
+.navigation_button {
+    display: flex;
+    align-items: center;
+}
+.item_li {
+    font-family: 'Arial';
+    font-style: normal;
+    font-size: 15px;
+    color: #CDCDCD;
+    padding-right: 35px;
+    padding-top: 46px;
+}
+.img_header {
+    padding-top: 107px;
+}
+.logo_header {
+    width: 698px;
+    height: 728px;
+}
+.blok2 {
+    display: flex;
+    justify-content: space-between;
+}
+.content_header {
+    display: flex;
+    flex-direction: column;
+}
+.h2_header {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-size: 44px;
+    color: #FFFFFF;
+    padding-top: 253px;
+    padding-right: 182px;
+}
+.sub_heading {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #CDCDCD;
+    padding: 40px 40px 40px 0px;
+}
+.make_friend {
+    width: 207px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    font-size: 17px;
+    color: #292929;
+    border: #F1CDB3;
+}
+.About {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.about_text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 94px;
+    padding-right: 215px;
+}
+.about_img {
+    display: flex;
+    padding: 80px 120px 100px 215px;
+}
+.about_heading {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #545454;
+    padding-right: 100px;
+}
+.about_p1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #4C4C4C;
+    padding-top: 25px;
+}
+.about_p2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #4C4C4C;
+    padding-top: 25px;
+
+}
+.Our_Friends {
+    display: flex;
+    flex-direction: column;
+}
+.our_friends_heading {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #545454;
+}
+.button_friends {
+    width: 261px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-size: 17px;
+    color: #292929;
+    border: #F1CDB3;
+    margin: 0 auto;
+}
+.Our_Friends {
+    display: flex;
+    flex-direction: column;
+    background: #F6F6F6;
+    padding-bottom: 100px;
+}
+.our_friends_heading {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    color: #545454;
+    padding: 80px 440px 60px 440px;
+}
+.card_pets {
+    display: flex;
+    background: #F6F6F6;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.cards {
+    width: 270px;
+    height: 435px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    text-align: center;
+}
+.card_text {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    color: #545454;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.button_katrine{
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    background: #FAFAFA;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-size: 17px;
+    color: #292929;
+}
+.button_jennifer {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    background: #FAFAFA;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-size: 17px;
+    color: #292929;
+}
+.button_woody {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    background: #FAFAFA;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-size: 17px;
+    color: #292929;
+}
+.Help {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 127px 100px 127px;
+}
+.help_heading {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    color: #545454;
+}
